@@ -1,0 +1,63 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.main{
+	width: 390px;
+	height: 300px;
+	padding-top: 35px;
+	background: #191e34;
+	opacity: 0.8;
+}
+
+.input-container{
+	width: 343px;
+	height: 45px;
+	background: white;
+	border: 3px solid #aaaaaa;
+	border-radius: 3px;
+ 	margin: 0 auto 18px auto;
+}
+
+.input-container:nth-child(2){
+	margin-bottom:50px; 
+}
+
+.login-username{
+	width: 340px;
+	height: 39px;
+	font-size: 18px;
+	text-indent: 5px;
+	outline: none;
+	color: rgb(170, 170, 170);
+
+}
+
+.button-container{
+	position: relative;
+	width: 342px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #f19942;
+	font-size: 28px;
+	font-weight: bolder;
+	color: white;
+	border-bottom: 4px solid #b0661e;
+	margin: 0 auto 18px auto;
+	opacity: 0.9;
+}
+
+.button-container:hover{
+	opacity: 1;
+}
+
+.login-admit{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 342px;
+	height: 54px;
+	opacity: 0;
+}

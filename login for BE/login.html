@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	<div class="main">
+	<form action="#">
+		<div class="input-container">
+			<input type="text" class="login-username"name="username" value="邮箱/手机/用户名"onFocus='clearTxt1(),colorChangeToBlue1()' onBlur="colorChangeToGrey1()";>
+		</div>
+		<div class="input-container">
+			<input type="text" class="login-username"name="username" value="密码" onFocus='clearTxt2(),colorChangeToBlue2(),typeChangeToPassword()' onBlur="colorChangeToGrey2()">
+		</div>
+		<div class="button-container">登 录
+			<button class="login-admit"></button>
+		</div>
+	</form>	
+	</div>
+
+ 	<script src="./index.js"></script> 
+</body>
+</html>
